@@ -25,6 +25,9 @@ ul.nav-links {
     margin: 0;
     padding: 0;
 }
+ul.nav-links .show{
+    display: flex;
+}
 
 ul li {
     margin: 0 2vw;
@@ -345,3 +348,56 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+
+.hamburger {
+    background: transparent;
+    display: none;
+    border: 0;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*  media query begin */
+@media screen and (max-width:768px) {
+    ul.nav-links{
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+
+    div.hero-content-heading h3 {
+        font-size: 30px;
+
+    }
+
+    div.hero-section {
+        padding-top: 70px;
+    }
+
+    div.hero-content-heading p {
+        font-size: 16px;
+    }
+
+    div.background {
+        background: #fff;
+        box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+        width: 550px;
+        height: 350px;
+    }
+
+    div.hero-background-pos {
+        display: none;
+    }
+
+    div.snapshot-box-content {
+        display: block;
+    }
+
+}
+
+
+
+
+
