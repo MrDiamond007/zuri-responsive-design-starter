@@ -359,7 +359,7 @@ div.footer h6 {
 }
 
 /*  media query begin */
-@media screen and (max-width:768px) {
+@media screen and (max-width:320px) {
     ul.nav-links{
         display: none;
     }
@@ -373,7 +373,7 @@ div.footer h6 {
     }
 
     div.hero-section {
-        padding-top: 70px;
+        padding: 10px;
     }
 
     div.hero-content-heading p {
